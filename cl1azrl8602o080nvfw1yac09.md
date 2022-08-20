@@ -1,4 +1,4 @@
-## Two Ways to create a Embed Styled Html Page in my blog
+## Two Ways to create a Embed Styled Html Page in your blog
 
 Hi Everyone 👋
 
