@@ -1,40 +1,54 @@
-## Create a Blog with Next JS
+---
+title: "Create a Blog with Next JS Using GraphCMS"
+seoTitle: "Create A Blog"
+datePublished: Fri Feb 11 2022 19:22:49 GMT+0000 (Coordinated Universal Time)
+cuid: ckziu43y00crat1s172pw7cgv
+slug: create-a-blog-with-next-js-using-graphcms
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1644519682674/TNVdZPlk9.png
+tags: programming-blogs, web-development, nextjs, graphcms, programming-school
+
+---
 
 # Hello Everyone
 
 If you want to make A Blog with Your self this article will help you to make a blog with a dashboard
 
-# Make Our Project and install our tools and libraries 
+# Make Our Project and install our tools and libraries
 
 ## Create Our Directory and make the project
-1. Create in your drive or desktop a folder for the project I named it ```hashnode-blog``` 
+
+1. Create in your drive or desktop a folder for the project I named it `hashnode-blog`
+    
+
 > Don't use uppercase in your project folder's name because he will give you an error
-2. Go to your directory in the top there write ```cmd``` in windows:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518413352/qo_yBbbCX.png)
+1. Go to your directory in the top there write `cmd` in windows:
+    
 
-3. When You write cmd and press enter a window will open for you like this:
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518413352/qo_yBbbCX.png align="left")
 
+1. When You write cmd and press enter a window will open for you like this:
+    
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518782803/OpphT_tGr.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518782803/OpphT_tGr.png align="left")
 
-4. Write in it ```npx create-next-app ./``` Then press enter:
+1. Write in it `npx create-next-app ./` Then press enter:
+    
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518807249/N79vgIzv-.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518807249/N79vgIzv-.png align="left")
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518890693/qJc-nrS7x.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518890693/qJc-nrS7x.png align="left")
 
-5. He will install ```react, react-dom, next, eslint, and eslint-config-next``` and in the end he will show you this window:
+1. He will install `react, react-dom, next, eslint, and eslint-config-next` and in the end he will show you this window:
+    
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518988143/H9EIEWSsf.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644518988143/H9EIEWSsf.png align="left")
 
 In the pages folder 📂 all our code for the website as you can see:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644519300490/a2q81lM3W.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644519300490/a2q81lM3W.png align="left")
 
-
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644519350850/pi_pIq37K.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644519350850/pi_pIq37K.png align="left")
 
 # Code Our Blog
 
@@ -42,21 +56,23 @@ If you want to code you should have a code editor, I will use Visual Studio Code
 
 If you currently using vs code write code . in our command prompt and press enter as you can see:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520129894/UGupf1LDu.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520129894/UGupf1LDu.png align="left")
 
 Then it will open vs code window as you can see:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520187196/iOuZGJM9v.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520187196/iOuZGJM9v.png align="left")
 
 and as you can see this is our project starter:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520570000/47p_ZDxo9.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644520570000/47p_ZDxo9.png align="left")
 
 1. Go to index.js File and check the code:
+    
 
-![code.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644521013865/3sHHglXSH.png)
+![code.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644521013865/3sHHglXSH.png align="left")
 
 Now Let's Convert this code to:
+
 ```js
 import Head from 'next/head';
 
@@ -69,16 +85,16 @@ export default function Home() {
 }
 ```
 
-2. Run our code in our computer server by run ```npm run dev``` and press enter in command prompt as you can see:
+1. Run our code in our computer server by run `npm run dev` and press enter in command prompt as you can see:
+    
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523040159/ZFXftm6n0.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523040159/ZFXftm6n0.png align="left")
 
 ## Install All Our Tools
-If you use npm you will write this as you can see :
-```npm install graphql graphql-request html-react-parser moment react-multi-carousel sass swr``` the next command is ```npm install -D tailwindcss postcss autoprefixer``` to install tailwindcss framework and the next is ```npx tailwindcss init -p``` to initialize your tailwindcss framework in your project
 
-Then You will have a file called ```tailwind.config.js``` convert it's code to:
+If you use npm you will write this as you can see : `npm install graphql graphql-request html-react-parser moment react-multi-carousel sass swr` the next command is `npm install -D tailwindcss postcss autoprefixer` to install tailwindcss framework and the next is `npx tailwindcss init -p` to initialize your tailwindcss framework in your project
+
+Then You will have a file called `tailwind.config.js` convert it's code to:
 
 ```js
 module.exports = {
@@ -97,11 +113,11 @@ module.exports = {
   plugins: [],
 
 };
-
 ```
 
 And in globals.scss file delete all and paste this in globals.css:
-```
+
+```plaintext
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -178,12 +194,12 @@ a {
 }
 ```
 
-> If There is globals.css convert the name to globals.scss 
+> If There is globals.css convert the name to globals.scss
 
-
-## Let's Create A New File called ```_document.js```
+## Let's Create A New File called `_document.js`
 
 Let's Paste this code in it:
+
 ```js
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
@@ -217,17 +233,25 @@ export default MyDocument;
 ```
 
 ## Create Our Components
-1. Create ```components``` Folder
+
+1. Create `components` Folder
+    
+
 ### Create Header Component
-1. Create ```Header.jsx``` file
-Let's import all our tools:
+
+1. Create `Header.jsx` file Let's import all our tools:
+    
+
 ```js
 import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 ```
-2. Make a variable called Header and write our styles then export it as you can see:
-```
+
+1. Make a variable called Header and write our styles then export it as you can see:
+    
+
+```plaintext
 import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
@@ -252,7 +276,8 @@ const Header = () => {
 export default Header;
 ```
 
-Let's Create Our ```Layout.jsx``` file and write this code as you can see:
+Let's Create Our `Layout.jsx` file and write this code as you can see:
+
 ```js
 import React from 'react';
 import Header from './Header';
@@ -267,146 +292,180 @@ const Layout = ({ children }) => (
 export default Layout;
 ```
 
-Let's Create Our ```index.jsx``` file to export all our files in it:
+Let's Create Our `index.jsx` file to export all our files in it:
+
 ```js
 export { default as Layout } from './Layout';
 ```
 
 ## Create GraphCMS Account and get all information from it
-1. Go to https://app.graphcms.com and sign up
-2. After Sign up Go and create a new project called ```[Your Blog name Here] | Blog```:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523636322/TD1rPGdlO.png)
+1. Go to https://app.graphcms.com and sign up
+    
+2. After Sign up Go and create a new project called `[Your Blog name Here] | Blog`:
+    
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523636322/TD1rPGdlO.png align="left")
+
 3.Click on Setup Schema and click to new Model:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523687883/uZNHs_vce.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644523687883/uZNHs_vce.png align="left")
 
 ### Author Model
-1. Let's Name this new Model ```Author```
 
-2. Let's Add A New Field From the sidebar ```Single line Text``` and name it ```Name``` and API ID ```name``` and make the field required:
+1. Let's Name this new Model `Author`
+    
+2. Let's Add A New Field From the sidebar `Single line Text` and name it `Name` and API ID `name` and make the field required:
+    
 
-![Author.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524043914/p4Tsz-Nuj.jpeg)
+![Author.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524043914/p4Tsz-Nuj.jpeg align="left")
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524112469/J4fpw328dU.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524112469/J4fpw328dU.png align="left")
 
-![require.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524164149/MyE6YQnFLQ.jpeg)
+![require.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524164149/MyE6YQnFLQ.jpeg align="left")
 
-3. Let's Add A New Field from the sidebar ```Asset Picker``` and name it ```Photo``` and API ID ```photo```:
+1. Let's Add A New Field from the sidebar `Asset Picker` and name it `Photo` and API ID `photo`:
+    
 
-![Photo.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524391297/okQ5dCV24.jpeg)
+![Photo.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524391297/okQ5dCV24.jpeg align="left")
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524392859/JZZxBwS3D.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524392859/JZZxBwS3D.png align="left")
 
-4. Let's Add A New Field from the sidebar ```Multi line text``` and name it ```Bio``` and API ID ```bio```:
+1. Let's Add A New Field from the sidebar `Multi line text` and name it `Bio` and API ID `bio`:
+    
 
-![Bio.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524583943/PVhUqZVbc.jpeg)
+![Bio.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524583943/PVhUqZVbc.jpeg align="left")
 
-![Field.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524666392/2BlHDbyPX.jpeg)
+![Field.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524666392/2BlHDbyPX.jpeg align="left")
 
 This is the Fields in the end:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524978257/ahMd8CoXg.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644524978257/ahMd8CoXg.png align="left")
 
 ### Category Model
-1. Let's Add A New Model Called ```Category```
 
-2. Let's Add A New Field from the sidebar ```Single line text``` and it's name is ```Name``` and API ID ```name``` and make it required and make it Unique:
+1. Let's Add A New Model Called `Category`
+    
+2. Let's Add A New Field from the sidebar `Single line text` and it's name is `Name` and API ID `name` and make it required and make it Unique:
+    
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525525588/Ju0MXv02o.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525525588/Ju0MXv02o.png align="left")
 
-![Category.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525467444/aeBtKdYVY.jpeg)
+![Category.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525467444/aeBtKdYVY.jpeg align="left")
 
-![Car.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525477809/TRFWcNbVY.jpeg)
+![Car.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525477809/TRFWcNbVY.jpeg align="left")
 
-3. Let's Add A New Field from the sidebar ```Slug``` and it's name is ```Slug``` and API ID ``` slug and make it required and make it Unique and Then Create it:
+1. Let's Add A New Field from the sidebar `Slug` and it's name is `Slug` and API ID \`\`\` slug and make it required and make it Unique and Then Create it:
+    
 
-![Slug.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525677746/T0J0REFz3.jpeg)
+![Slug.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644525677746/T0J0REFz3.jpeg align="left")
 
 ### Comment Model
-1. Create A Model Called ```Comment```
-2. Let's Add A Field from the sidebar ```Single line text``` and make it's name ```Name``` and it's API ID ```name```:
 
-![Single.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526075873/H5C5OPQ4k.jpeg)
+1. Create A Model Called `Comment`
+    
+2. Let's Add A Field from the sidebar `Single line text` and make it's name `Name` and it's API ID `name`:
+    
 
-![Name.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526155969/lj0EK6AVF.jpeg)
+![Single.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526075873/H5C5OPQ4k.jpeg align="left")
 
-3. Let's Add Another Field from the sidebar ```Single line text``` and make it's name ```Email``` and it's API ID ```email``` and make it required:
+![Name.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526155969/lj0EK6AVF.jpeg align="left")
 
-![Single.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526075873/H5C5OPQ4k.jpeg)
+1. Let's Add Another Field from the sidebar `Single line text` and make it's name `Email` and it's API ID `email` and make it required:
+    
 
-![Email.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526338854/mpsU0JNCR.jpeg)
+![Single.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526075873/H5C5OPQ4k.jpeg align="left")
 
-4. Let's Add A Field from the sidebar ```Multi line text``` and make it's name ```Comment``` and it's API ID ```email``` and make it required Then Create it:
+![Email.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526338854/mpsU0JNCR.jpeg align="left")
 
-![Comment.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526593536/6Y2iWhHpm.jpeg)
+1. Let's Add A Field from the sidebar `Multi line text` and make it's name `Comment` and it's API ID `email` and make it required Then Create it:
+    
 
-![Commentval.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526679789/y07Am9O4G.jpeg)
+![Comment.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526593536/6Y2iWhHpm.jpeg align="left")
+
+![Commentval.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644526679789/y07Am9O4G.jpeg align="left")
 
 ### Post Model
-1. Create New Model Called ```Post```
-2. Let's Add A Field from the sidebar ```Single line text``` and it's Name is ```Title``` and It's API ID is ```title``` and make it required and make it as title:
 
-![code.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644527153889/ILCUj30wf.jpeg)
+1. Create New Model Called `Post`
+    
+2. Let's Add A Field from the sidebar `Single line text` and it's Name is `Title` and It's API ID is `title` and make it required and make it as title:
+    
 
-3. Let's Add A Field from the sidebar ```Rich text``` and it's Name is ```Content``` and it's API ID is ```content``` and make it required and Embeds:
+![code.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644527153889/ILCUj30wf.jpeg align="left")
 
-![Screenshot 2022-02-10 230811.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644527320326/clhATRuNK.jpeg)
+1. Let's Add A Field from the sidebar `Rich text` and it's Name is `Content` and it's API ID is `content` and make it required and Embeds:
+    
 
-4. Let's Add A Field from the sidebar ```Slug``` and it's Name is ```Slug``` and it's API ID is ```slug``` and make it required and Unique
-5. Let's Add A Field from the sidebar ```Multi line text``` and it's Name is ```Excerpt``` and it's API ID is ```excerpt``` and make it required
-6. Let's Add A Field from the sidebar ```Asset Picker``` and it's Name is ```Featured Image``` and it's API ID is ```featuredImage``` and make it required
-7. Let's Add A New Field from the sidebar ```Boolean``` and it's Name is ```Featured Post``` and it's API ID is ```featuredPost``` and make it required:
+![Screenshot 2022-02-10 230811.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644527320326/clhATRuNK.jpeg align="left")
 
-![Bool.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598337605/Bm7yPHYft.jpeg)
+1. Let's Add A Field from the sidebar `Slug` and it's Name is `Slug` and it's API ID is `slug` and make it required and Unique
+    
+2. Let's Add A Field from the sidebar `Multi line text` and it's Name is `Excerpt` and it's API ID is `excerpt` and make it required
+    
+3. Let's Add A Field from the sidebar `Asset Picker` and it's Name is `Featured Image` and it's API ID is `featuredImage` and make it required
+    
+4. Let's Add A New Field from the sidebar `Boolean` and it's Name is `Featured Post` and it's API ID is `featuredPost` and make it required:
+    
+
+![Bool.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598337605/Bm7yPHYft.jpeg align="left")
 
 ### Add Reference
+
 #### Post Model
-1. Add A New Field ```Reference``` and it's Name ```Author``` and it's API ID ```author``` and the other field it's Name is ```Post``` and it's API ID ```post```:
 
-![Ref.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598452396/EMm8wS6ng.jpeg)
+1. Add A New Field `Reference` and it's Name `Author` and it's API ID `author` and the other field it's Name is `Post` and it's API ID `post`:
+    
 
-![Reference.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598540394/6oMzo7um7.jpeg)
+![Ref.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598452396/EMm8wS6ng.jpeg align="left")
+
+![Reference.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598540394/6oMzo7um7.jpeg align="left")
 
 If you don't know how to customize vs code go to [my article about vs code extensions](https://programming-school.com/visual-studio-code-ckxxm3se008kbu4s115iqd1bh)
 
-2. Add A New Field ```Reference``` and Keep All the Fields and check the images:
+1. Add A New Field `Reference` and Keep All the Fields and check the images:
+    
 
-![Categories.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598996183/o9-e1uNEm.jpeg)
+![Categories.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644598996183/o9-e1uNEm.jpeg align="left")
 
-3. Add A New Field ```Reference``` and keep All Fields and check the images:
+1. Add A New Field `Reference` and keep All Fields and check the images:
+    
 
-![Comments.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644599156006/IrpaGVoru.jpeg)
+![Comments.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644599156006/IrpaGVoru.jpeg align="left")
 
-### Fetch the data from the API 
+### Fetch the data from the API
 
 #### URLS That get data from
-Now Let's Add New File Called ```.env``` to put in it all secure environment variables and Go to our project and go to settings:
 
-![Settings.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601185816/siunuqoW2.jpeg)
+Now Let's Add New File Called `.env` to put in it all secure environment variables and Go to our project and go to settings:
 
-And Then Go to ```Environments``` and copy that:
+![Settings.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601185816/siunuqoW2.jpeg align="left")
 
-![.env.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601302913/YLto-44Ld.jpeg)
+And Then Go to `Environments` and copy that:
+
+![.env.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601302913/YLto-44Ld.jpeg align="left")
 
 And Then Let's Update Environment variables With the url we copied:
-```
+
+```plaintext
 NEXT_PUBLIC_GRAPHCMS_ENDPOINT="The URL you copied"
 ```
-Now Let's Get the API Token
-Now Go to our website to settings to API access to The bottom of the page click ```Create Token``` and name the token With Name you choose and click Create & Configure Permission and copy the token:
 
-![Token.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601869442/8iw0ar7ST.jpeg)
+Now Let's Get the API Token Now Go to our website to settings to API access to The bottom of the page click `Create Token` and name the token With Name you choose and click Create & Configure Permission and copy the token:
 
-And Now update ```.env``` file with this token you copied:
-```
+![Token.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644601869442/8iw0ar7ST.jpeg align="left")
+
+And Now update `.env` file with this token you copied:
+
+```plaintext
 NEXT_PUBLIC_GRAPHCMS_ENDPOINT="The URL you copied"
 GRAPHCMS_TOKEN="Your Token"
 ```
 
 #### Fetch Data
 
-Now Let's Add New Folder Called ```services``` and make a New File in it Called ```index.js``` and paste this code in it to get all data:
+Now Let's Add New Folder Called `services` and make a New File in it Called `index.js` and paste this code in it to get all data:
+
 ```js
 import { request, gql } from 'graphql-request';
 
@@ -667,7 +726,9 @@ export const getRecentPosts = async () => {
 ```
 
 ### Update Header Component
-And Now Let's Update ```Header.jsx```:
+
+And Now Let's Update `Header.jsx`:
+
 ```js
 import React, { useState, useEffect } from 'react';
 
@@ -705,8 +766,10 @@ export default Header;
 ```
 
 ### Adjacent Post Card Component
-Now Let's Add A New File in components folder called ```AdjacentPostCard.jsx```:
-```
+
+Now Let's Add A New File in components folder called `AdjacentPostCard.jsx`:
+
+```plaintext
 import React from 'react';
 import moment from 'moment';
 import Link from 'next/link';
@@ -741,14 +804,18 @@ export default AdjacentPostCard;
 ```
 
 ### Utils
-Now Let's Add a New File called ```utils.js``` in the main folder:
-```
+
+Now Let's Add a New File called `utils.js` in the main folder:
+
+```plaintext
 export const grpahCMSImageLoader = ({ src }) => src;
 ```
 
 ### Author Component
-And Now Let's Add A New File Called ```Author.jsx``` to components folder to get the author who write this article:
-```
+
+And Now Let's Add A New File Called `Author.jsx` to components folder to get the author who write this article:
+
+```plaintext
 import React from 'react';
 import Image from 'next/image';
 
@@ -776,7 +843,9 @@ export default Author;
 ```
 
 ### Categories Component
-Now Let's Get Categories by create a new file called ```Categories.jsx```:
+
+Now Let's Get Categories by create a new file called `Categories.jsx`:
+
 ```js
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -808,7 +877,9 @@ export default Categories;
 ```
 
 ### Comments Section
-Now Let's Add New File to comments section by create a new file in components folder called ```Comments.jsx```:
+
+Now Let's Add New File to comments section by create a new file in components folder called `Comments.jsx`:
+
 ```js
 import React, { useEffect, useState } from 'react';
 import moment from 'moment';
@@ -856,8 +927,10 @@ export default Comments;
 ```
 
 ### Comments Form Component
-Now Let's Add A New File To Make style of comments section and now create a new file called ```CommentsForm.jsx``` in components folder: 
-```
+
+Now Let's Add A New File To Make style of comments section and now create a new file called `CommentsForm.jsx` in components folder:
+
+```plaintext
 import React, { useState, useEffect } from 'react';
 import { submitComment } from '../services';
 
@@ -963,8 +1036,10 @@ export default CommentsForm;
 ```
 
 ### Featured Post Card Component
-Now Let's Add A New File to get Featured Post Card and the file name is ```FeaturedPostCard.jsx``` in components folder:
-```
+
+Now Let's Add A New File to get Featured Post Card and the file name is `FeaturedPostCard.jsx` in components folder:
+
+```plaintext
 import React from 'react';
 import moment from 'moment';
 import Image from 'next/image';
@@ -997,8 +1072,10 @@ export default FeaturedPostCard;
 ```
 
 ### Loader Component
-And Now Let's Create a Loader file to get a loader style and its file name ```Loader.jsx``` in components folder:
-```
+
+And Now Let's Create a Loader file to get a loader style and its file name `Loader.jsx` in components folder:
+
+```plaintext
 import React from 'react';
 
 const Loader = () => (
@@ -1022,8 +1099,10 @@ export default Loader;
 ```
 
 ### Post Card Component
-Now Let's Add PostCard Component called ```PostCard.jsx``` in components folder:
-```
+
+Now Let's Add PostCard Component called `PostCard.jsx` in components folder:
+
+```plaintext
 import React from 'react';
 import Image from 'next/image';
 import moment from 'moment';
@@ -1075,7 +1154,9 @@ export default PostCard;
 ```
 
 ### Post Details Component
-And Now Let's Add Post Details page in components folder called ```PostDetails.jsx```:
+
+And Now Let's Add Post Details page in components folder called `PostDetails.jsx`:
+
 ```js
 import React from 'react';
 
@@ -1162,7 +1243,8 @@ const PostDetail = ({ post }) => {
 export default PostDetail;
 ```
 
-And For Now Let's Add Post Widget component in components folder called ```PostWidget.jsx```:
+And For Now Let's Add Post Widget component in components folder called `PostWidget.jsx`:
+
 ```js
 import React from 'react';
 
@@ -1248,9 +1330,12 @@ const PostDetail = ({ post }) => {
 
 export default PostDetail;
 ```
-### Update ```index.jsx``` file
-Now Let's Update ```index.jsx``` file:
-```
+
+### Update `index.jsx` file
+
+Now Let's Update `index.jsx` file:
+
+```plaintext
 export { default as PostCard } from './PostCard';
 export { default as PostDetail } from './PostDetail';
 export { default as Layout } from './Layout';
@@ -1264,12 +1349,16 @@ export { default as CommentsForm } from './CommentsForm';
 export { default as Loader } from './Loader';
 ```
 
-Congratulations 🎊 Our Components is finished 
+Congratulations 🎊 Our Components is finished
 
 ### Sections Folder
-Now Let's Add A New Folder Called ```sections``` in the main folder
+
+Now Let's Add A New Folder Called `sections` in the main folder
+
 #### Adjacent Posts section
-Now Let's Add A New File called ```AdjacentPosts.jsx``` in sections folder:
+
+Now Let's Add A New File called `AdjacentPosts.jsx` in sections folder:
+
 ```js
 import React, { useState, useEffect } from 'react';
 
@@ -1311,7 +1400,9 @@ export default AdjacentPosts;
 ```
 
 #### Featured Post Section
-Now Let's Add A New File in sections folder called ```FeaturedPosts.jsx```:
+
+Now Let's Add A New File in sections folder called `FeaturedPosts.jsx`:
+
 ```js
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-multi-carousel';
@@ -1380,14 +1471,19 @@ const FeaturedPosts = () => {
 export default FeaturedPosts;
 ```
 
-Now Let's Add A New File Called ```index.js``` in sections folder to export all sections:
+Now Let's Add A New File Called `index.js` in sections folder to export all sections:
+
 ```js
 export { default as AdjacentPosts } from './AdjacentPosts';
 export { default as FeaturedPosts } from './FeaturedPosts';
 ```
+
 ### Pages Folder
+
 #### Comments
-Now go to ```pages``` folder then in the folder there is api folder in this folder there is ```hello.js``` file rename it to ```comments.js``` and paste the following code to it to get comments:
+
+Now go to `pages` folder then in the folder there is api folder in this folder there is `hello.js` file rename it to `comments.js` and paste the following code to it to get comments:
+
 ```js
 import { GraphQLClient, gql } from 'graphql-request';
 
@@ -1424,7 +1520,9 @@ export default async function asynchandler(req, res) {
 ```
 
 #### Catogery
-Now In ```pages``` folder  create A New Folder Called ```category``` and in it let's Add A New File Called ```[slug].js``` and paste this code in it to get the pages of the categories:
+
+Now In `pages` folder create A New Folder Called `category` and in it let's Add A New File Called `[slug].js` and paste this code in it to get the pages of the categories:
+
 ```js
 import React from 'react';
 import { useRouter } from 'next/router';
@@ -1478,7 +1576,8 @@ export async function getStaticPaths() {
 }
 ```
 
-And Now let's Add A New Folder in pages folder called ```post``` and in it make a new file called ```[slug].js``` to get the pages of the posts:
+And Now let's Add A New Folder in pages folder called `post` and in it make a new file called `[slug].js` to get the pages of the posts:
+
 ```js
 import React from 'react';
 import { useRouter } from 'next/router';
@@ -1540,6 +1639,7 @@ export async function getStaticPaths() {
 ```
 
 And Now Let's Update index.js in pages folder:
+
 ```js
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
@@ -1575,9 +1675,9 @@ export async function getStaticProps() {
 }
 ```
 
-And Now Write in command Prompt ```npm start``` and then go to ```localhost:3000``` to see your project:
+And Now Write in command Prompt `npm start` and then go to `localhost:3000` to see your project:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644606700800/mEFp8eaBS.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644606700800/mEFp8eaBS.png align="left")
 
 When you open it you see it because you don't add any content yet
 
@@ -1585,28 +1685,33 @@ Go to GraphCMS Dashboard and Then content and add your content in it
 
 When you add content you will see yur website like this:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644606953222/HAaw4_xqt.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644606953222/HAaw4_xqt.png align="left")
 
 ## Deploy Your Site in Vercel
+
 Now Go to [Vercel](https://vercel.com) and sign in or sign up then Create A New Project:
 
-![vercel.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607510157/IhKqbYZJG.jpeg)
+![vercel.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607510157/IhKqbYZJG.jpeg align="left")
 
 And Then Connect to Your repo on github:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607684996/Mr2obXIKV.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607684996/Mr2obXIKV.png align="left")
+
 And Then Give a name to the project:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607726987/HaOW3UcAF.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607726987/HaOW3UcAF.png align="left")
 
-And then go to ```Environment Variables``` and copy the name of the first name of .env file :
-1. Name="NEXT_PUBLIC_GRAPHCMS_ENDPOINT" and then copy the value and paste it in the field and click add:
+And then go to `Environment Variables` and copy the name of the first name of .env file :
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607889258/3dSxGTnJE.png)
+1. Name="NEXT\_PUBLIC\_GRAPHCMS\_ENDPOINT" and then copy the value and paste it in the field and click add:
+    
 
-2. Name="GRAPHCMS_TOKEN" and then copy the value and paste it in the field and click add:
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607889258/3dSxGTnJE.png align="left")
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607973645/jIvXfFJWJ.png)
+1. Name="GRAPHCMS\_TOKEN" and then copy the value and paste it in the field and click add:
+    
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644607973645/jIvXfFJWJ.png align="left")
 
 Then Click Deploy
 
@@ -1614,19 +1719,16 @@ It will take a while
 
 When it will finish you will see this page:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644608145614/OzOSczooW.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644608145614/OzOSczooW.png align="left")
 
-And Congratulations 🎊 🎆🎉🎉 
-You have Build Your First Blog 
+And Congratulations 🎊 🎆🎉🎉 You have Build Your First Blog
 
-[Demo](https://hashnode-post.vercel.app/)
-[Source Code](https://github.com/Programing-School/Programing-School-Blog)
-
+[Demo](https://hashnode-post.vercel.app/) [Source Code](https://github.com/Programing-School/Programing-School-Blog)
 
 If you don't know how to create a repo on github go to [This article](https://programing-school.hashnode.dev/learn-git-and-github) to show you how to create it
 
-Finaly Don't forgot to [follow me on hashnode](https://hashnode.com/@Programing-School) and if you have any question reply with your question and I will help you 
+Finaly Don't forgot to [follow me on hashnode](https://hashnode.com/@Programing-School) and if you have any question reply with your question and I will help you
 
-%%[youtube]
+%%[youtube] 
 
 Thanks for reading
