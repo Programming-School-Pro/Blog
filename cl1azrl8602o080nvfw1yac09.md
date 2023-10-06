@@ -1,4 +1,12 @@
-## Two Ways to create a Embed Styled Html Page in your blog
+---
+title: "Two Ways to create a Embed Styled Html Page in your blog"
+datePublished: Mon Mar 28 2022 17:36:03 GMT+0000 (Coordinated Universal Time)
+cuid: cl1azrl8602o080nvfw1yac09
+slug: two-ways-to-create-a-embed-styled-html-page-in-your-blog
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/EUzk9BIEq6M/upload/v1648484323950/D7mNV-O8G.jpeg
+tags: markdown, styleguide, html5, styling, programming-school
+
+---
 
 Hi Everyone 👋
 
