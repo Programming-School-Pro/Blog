@@ -1,4 +1,12 @@
-## My Portfolio
+---
+title: "My Portfolio"
+datePublished: Tue Jun 07 2022 17:06:34 GMT+0000 (Coordinated Universal Time)
+cuid: cl44ez9s400pzkfnvbkfg7lsa
+slug: my-portfolio
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/1SAnrIxw5OY/upload/v1654620826086/7i6bh3Uyl.jpeg
+tags: react, reactjs, portfolio, sanity, programming-school
+
+---
 
 Well, I guess that since I started my first online course on web development I knew that one of the milestones was to create and deploy my very own portfolio website. I must admit that this is not my first ever try to make a portfolio, but every time I started to design something even close to a portfolio I got stuck on some small thing like "I don't truly know how CSS Grid works" or "That's a shiny technology, I, of course, want to use that!" and had to start from the beginning or read up on some documentation to be able to progress. But now, after a fairly long (no that long) journey along the Developmentroad, I can stand up straight and show you all my very own portfolio website. A heads-up to you all: I might seem almost smug about it, but heck yeah, this is a milestone for me. I can't wait to share it with you!
 
