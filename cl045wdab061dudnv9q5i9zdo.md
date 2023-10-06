@@ -1,4 +1,12 @@
-## 40 Best YouTube Channels,  Arabic and English
+---
+title: "40 Best YouTube Channels,  Arabic and English"
+datePublished: Sat Feb 26 2022 18:13:38 GMT+0000 (Coordinated Universal Time)
+cuid: cl045wdab061dudnv9q5i9zdo
+slug: 40-best-youtube-channels-arabic-and-english
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1645895667652/z44hiE0Es.png
+tags: programming-blogs, youtube, learn-coding, learning-journey, programming-school
+
+---
 
 Hello Developers 👏👋
 
