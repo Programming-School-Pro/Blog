@@ -1,9 +1,9 @@
 ---
-title: "Create a Blog with Next JS Using GraphCMS"
+title: "Build a Blog with Next JS Using GraphCMS"
 seoTitle: "Create A Blog"
 datePublished: Fri Feb 11 2022 19:22:49 GMT+0000 (Coordinated Universal Time)
 cuid: ckziu43y00crat1s172pw7cgv
-slug: create-a-blog-with-next-js-using-graphcms
+slug: build-a-blog-with-next-js-using-graphcms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1644519682674/TNVdZPlk9.png
 tags: programming-blogs, web-development, nextjs, graphcms, programming-school
 
@@ -11,7 +11,7 @@ tags: programming-blogs, web-development, nextjs, graphcms, programming-school
 
 # Hello Everyone
 
-If you want to make A Blog with Your self this article will help you to make a blog with a dashboard
+If you want to make A Blog for **yourself**, this article will help you to make a blog with a dashboard
 
 # Make Our Project and install our tools and libraries
 
