@@ -1,4 +1,12 @@
-## How to use typescript in React ?
+---
+title: "How to use typescript in React ?"
+datePublished: Mon Apr 18 2022 22:52:14 GMT+0000 (Coordinated Universal Time)
+cuid: cl25bb2w502bbrznvetuc05ue
+slug: how-to-use-typescript-in-react
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650321904260/hMKm5z5rW.webp
+tags: reactjs, typescript, template, 2articles1week, programming-school
+
+---
 
 # How to add typescript in our react project
 
