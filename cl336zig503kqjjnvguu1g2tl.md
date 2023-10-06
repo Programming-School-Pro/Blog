@@ -1,4 +1,12 @@
-## My Favourite Tools, Apps and Websites to increase Your Productivity 🎨🚀
+---
+title: "My Favourite Tools, Apps and Websites to increase Your Productivity 🎨🚀"
+datePublished: Thu May 12 2022 15:55:26 GMT+0000 (Coordinated Universal Time)
+cuid: cl336zig503kqjjnvguu1g2tl
+slug: my-favourite-tools-apps-and-websites-to-increase-your-productivity
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1652295194362/wX2G2eTOE.png
+tags: terminal, tools, vscode, figma, programming-school
+
+---
 
 # 1) Figma
 
