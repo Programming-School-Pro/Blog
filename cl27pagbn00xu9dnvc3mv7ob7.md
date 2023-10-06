@@ -1,4 +1,12 @@
-## Useful Git Commands
+---
+title: "Useful Git Commands"
+datePublished: Wed Apr 20 2022 14:59:12 GMT+0000 (Coordinated Universal Time)
+cuid: cl27pagbn00xu9dnvc3mv7ob7
+slug: useful-git-commands
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650465226428/Y_-BYEuML.png
+tags: github, git, command-line, 2articles1week, programming-school
+
+---
 
 # Git
 
