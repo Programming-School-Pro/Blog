@@ -1,4 +1,12 @@
-## Top Awesome Background Generators For Your Websites
+---
+title: "Top Awesome Background Generators For Your Websites"
+datePublished: Sun May 29 2022 17:55:16 GMT+0000 (Coordinated Universal Time)
+cuid: cl3rlr9xd07xvbrnvesqa0aw6
+slug: top-awesome-background-generators-for-your-websites
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1653669617058/SJsJXMzj3.png
+tags: websites, generators, html5, 2articles1week, programming-school
+
+---
 
 Hello Everyone and Welcome
 
