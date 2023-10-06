@@ -1,4 +1,12 @@
-## Create your first React App
+---
+title: "Create your first React App"
+datePublished: Thu Jun 02 2022 20:32:38 GMT+0000 (Coordinated Universal Time)
+cuid: cl3xh5387016tuxnvcwkr0tw9
+slug: create-your-first-react-app
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/LG8ToawE8WQ/upload/v1654201037220/JyIKxThB5.jpeg
+tags: react-router, react, reactjs, reacthooks, programming-school
+
+---
 
 Hi There
 
