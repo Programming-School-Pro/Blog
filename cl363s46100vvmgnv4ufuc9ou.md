@@ -1,4 +1,15 @@
-## Visual Studio Code Shortcuts
+---
+title: "Visual Studio Code Shortcuts"
+seoTitle: "VS Code Shortcuts"
+seoDescription: "All VS Code Shortcuts you should know and understand"
+datePublished: Tue May 17 2022 12:50:38 GMT+0000 (Coordinated Universal Time)
+cuid: cl363s46100vvmgnv4ufuc9ou
+slug: visual-studio-code-shortcuts
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1652543246497/CCtw9ypjL.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1652543835099/lXdyGvGdq.png
+tags: productivity, vscode, vscode-cjevho8kk00bo1ss2lmqqjr51, vscode-extensions, programming-school
+
+---
 
 # General Shortcuts
 
