@@ -1,4 +1,12 @@
-## Learn Git & GitHub
+---
+title: "Learn Git & GitHub"
+datePublished: Sat Jan 29 2022 12:21:42 GMT+0000 (Coordinated Universal Time)
+cuid: ckyzszwzu0cjd8es1e71x0uhy
+slug: learn-git-and-github
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1643451400712/dHEknLTho.png
+tags: github, programming, git, learning, learn
+
+---
 
 **Git & GitHub is A Version Control for beginners and experts **
 
