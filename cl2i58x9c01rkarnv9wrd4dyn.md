@@ -1,4 +1,12 @@
-## 15 Libraries to Increase Your Productivity 🎨🚀
+---
+title: "15 Libraries to Increase Your Productivity 🎨🚀"
+datePublished: Wed Apr 27 2022 22:23:36 GMT+0000 (Coordinated Universal Time)
+cuid: cl2i58x9c01rkarnv9wrd4dyn
+slug: 15-libraries-to-increase-your-productivity
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1651098122926/OYTu3k-nt.png
+tags: material-design, reactjs, javascript-library, nextjs, programming-school
+
+---
 
 If you have created several web apps, the chances are you have been created the same components over and over again. Components like buttons, navigations, sliders, modals, tooltips, alerts, badges, and so on are often reused in most modern web apps.
 
