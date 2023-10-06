@@ -1,4 +1,12 @@
-## What's New in Visual Studio 2022
+---
+title: "What's New in Visual Studio 2022"
+datePublished: Mon Apr 18 2022 22:31:26 GMT+0000 (Coordinated Universal Time)
+cuid: cl25akby2029wrznv01zhcvmv
+slug: whats-new-in-visual-studio-2022
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650320524645/RBgkhdemj.png
+tags: visual-studio, aspnet, dotnetcore, 2articles1week, programming-school
+
+---
 
 Visual Studio 2022 has been in [preview](https://visualstudio.microsoft.com/vs/preview/) for a while now and is set to be released next month with [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0).
 
