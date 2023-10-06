@@ -1,4 +1,12 @@
-## Setting Up my first Organization
+---
+title: "Setting Up my first Organization"
+datePublished: Tue Apr 12 2022 19:54:28 GMT+0000 (Coordinated Universal Time)
+cuid: cl1wkbd4106wckmnv0j3qfis8
+slug: setting-up-my-first-organization
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1649785786303/Sq1eVBXMd.png
+tags: opensource, programmer, freecodecamp, setup, programming-school
+
+---
 
 # Overview
 1. Created The Organization
