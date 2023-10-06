@@ -1,4 +1,12 @@
-## The Best Vs Code Extensions For 2022 💪💪
+---
+title: "The Best Vs Code Extensions For 2022 💪💪"
+datePublished: Sun May 22 2022 17:48:34 GMT+0000 (Coordinated Universal Time)
+cuid: cl3hlfras07bomynv7hz35xo1
+slug: the-best-vs-code-extensions-for-2022
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/95YRwf6CNw8/upload/v1653239999976/2MmZlME-E.jpeg
+tags: vscode, vscode-cjevho8kk00bo1ss2lmqqjr51, 2articles1week, vscode-extensions, programming-school
+
+---
 
 # Theme Extensions
 1. One Dark Pro
