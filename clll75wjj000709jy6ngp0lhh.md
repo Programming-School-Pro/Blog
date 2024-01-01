@@ -1,8 +1,8 @@
 ---
-title: "Learning numpy The best library to analyze your data part 1"
+title: "Learning numpy The best library to analyze your data"
 datePublished: Mon Aug 21 2023 18:14:57 GMT+0000 (Coordinated Universal Time)
 cuid: clll75wjj000709jy6ngp0lhh
-slug: learning-numpy-the-best-library-to-analyze-your-data-part-1
+slug: learning-numpy-the-best-library-to-analyze-your-data
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/npxXWgQ33ZQ/upload/0342039f54a30956d5d3910a8075f827.jpeg
 tags: python, numpy, python-beginner
 
@@ -68,6 +68,6 @@ print(arr[2:5]) # To get the values from index 2 to 5
 
 # End
 
-Thank you for reading and if you like this please follow
+Thank you for reading and Follow US For more like this
 
 Bye
